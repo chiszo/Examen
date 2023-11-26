@@ -18,22 +18,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" th:href="@{/home}">Home</a>
+                    <a class="nav-link active" aria-current="page" th:href="@{/home}">Index</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Modulo de almacen
+                        Seguridad
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" th:href="@{/administracion/estado/frmestado}">Estado</a></li>
+                        <li><a class="dropdown-item" th:href="@{/auth/actualizar}">Cambiar Password</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/administracion/sala/frmsala}">Sala</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/almacen/guiaremi/listar}">Guias de remision</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/almacen/compras/listar}">Registro de compras</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" th:href="@{/almacen/reporte/listar}">Reportes</a></li>
+                        <li><a class="dropdown-item" th:href="@{/auth/login}">Cerrar sesión</a></li>
                     </ul>
                 </li>
             </ul>
